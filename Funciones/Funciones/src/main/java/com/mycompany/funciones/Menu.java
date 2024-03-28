@@ -12,8 +12,10 @@ public class Menu {
             System.out.println("3. Multiplicar");
             System.out.println("4. Dividir");
             System.out.println("5. Calcular resto");
+            System.out.println("0. Salir del programa");
             System.out.println("Ingrese la opcion, se le pedira los numeros posteriormente!");
             opcion = leer.nextInt();
+            if (opcion!=0){
             System.out.println("Ingrese numero 1: ");
             int num1 = leer.nextInt();
             System.out.println("Ingrese numero 2: ");
@@ -47,7 +49,7 @@ public class Menu {
                     break;
                 default:
                     System.out.print("Ingrese una opcion valida!!!");
-            }
+            }}
         }while(opcion != 0);   
     }
     }
