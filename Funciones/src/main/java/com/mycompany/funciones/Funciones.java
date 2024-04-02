@@ -4,8 +4,6 @@ public class Funciones{
     private int num1;
     private int num2;
     
-    public static void main(String[] args){}
-    
     public Funciones (int nume, int nume2){
         num1 = nume;
         num2 = nume2;
